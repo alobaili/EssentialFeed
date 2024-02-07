@@ -17,7 +17,7 @@ let package = Package(
         .target(
             name: "EssentialFeed"),
         .testTarget(
-            name: "EssentialFeedTests",
+            name: "RemoteFeedLoaderTests",
             dependencies: ["EssentialFeed"]),
     ]
 )

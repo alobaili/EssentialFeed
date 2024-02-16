@@ -24,8 +24,8 @@
     {
       "target" : {
         "containerPath" : "container:",
-        "identifier" : "RemoteFeedLoaderTests",
-        "name" : "RemoteFeedLoaderTests"
+        "identifier" : "EssentialFeedTests",
+        "name" : "EssentialFeedTests"
       }
     }
   ],

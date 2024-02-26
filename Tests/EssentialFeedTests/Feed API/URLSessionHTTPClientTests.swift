@@ -7,6 +7,7 @@
 
 import XCTest
 import EssentialFeed
+import TestHelpers
 
 final class URLSessionHTTPClientTests: XCTestCase {
     override func setUp() {
@@ -155,16 +156,8 @@ final class URLSessionHTTPClientTests: XCTestCase {
         return receivedResult
     }
 
-    private func anyURL() -> URL {
-        URL(string: "https://any-url.com")!
-    }
-
     private func anyData() -> Data {
         Data("any data".utf8)
-    }
-
-    private func anyNSError() -> NSError {
-        NSError(domain: "any error", code: 0)
     }
 
     private func anyHTTPURLResponse() -> HTTPURLResponse {
